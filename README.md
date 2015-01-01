@@ -1,20 +1,24 @@
 # OwnROM-Website
 
-A website for OwnDroid and our ROM OwnROM.
+A website for OwnDroid and our ROM, OwnROM.
 
 
 
 ## Tech
 
-Our website uses a number of projects to work properly:
+Our website uses a number of projects/software to work:
 
 * [Materializecss] - A modern responsive front-end framework based on Material Design
-* [Sublime Text] -The text editor you'll fall in love with
-* [Geany] - A great text editor and lightweight IDE
-* [FileZilla] - The free FTP solution
+* [jQuery] - Write less, do more
+* HTML, CSS and Javascript
+
+Also to make this website we used many great programs/software:
+
+* [Brackets] - A modern, open source text editor that understands web design.
 * [Github] - Build better software, together
-* [Git] - Base of Github
-* [jQuery] - duh
+* [Git] - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
+* [FileZilla] - The free FTP solution
+* [Geany] - Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment
 * And more...
 
 ## Downloading
@@ -25,10 +29,15 @@ $ cd ownrom-website
 $ git clone https://github.com/OwnROM/OwnROM-Website
 ```
 
+Or download the repo as a zip file to the right --> 
+
+Then extracting it to a new directory called ownrom-website
+
 ## Development
 
 Want to contribute? Great!
 
+You may edit any file in this respitory including the readme or add files if needed if you think this will improve the site or projet
 
 
 ##### Editing multiple files:
@@ -58,7 +67,7 @@ After editing or adding files add the files to your local repository
 $ git add .
 ```
 
-Then commit the files that you've staged in your local repository
+Then commit the files that you've staged in your local repository (Where commit text could be anything you want)
 ```sh
 $ git commit -m 'commit text'
 ```
@@ -82,11 +91,27 @@ Our website uses the materializecss framework. To see what you can add/edit usin
 
 http://materializecss.com/
 
-If you need a text editor we would recommend ethier Sublime text (Paid) or geany (Free) for editing.
+If you need a text editor we would recommend ethier Brackets or Geany.
 
-http://www.sublimetext.com/
+If you need a more heavyweight text editor with many features, extensions or themes use Brackets.
+
+http://brackets.io/
+
+If you however want a more lightweight text editor that still has a good amount of feautres try Geany
 
 http://www.geany.org/
+
+Some extensions that you may want to look at if chossing Brackets would be:
+
+* Brackets git - Github/Git commands in the text editor
+* eqFTP - For uploading your files to a FTP server directly from the editor
+* Markdown preview - For previewing markdown documents that your working on in the editor
+* Beautify - Makes html, javascript or css code more readable
+* Brackets icons - Add icons of diffrent file formats to the sidebar
+* Code overviwer - adds your code in a overview to quickly switch between diffrent parts of your code
+* Documents toolbar - Adds a toolbar to quickly switch between files
+* Simple To-Do - Adds a todo list to the editor to make quick notes or to-dos for your project
+* Monokai - A nice looking theme if your used to sublime text or want something that looks like it
 
 #####What gets added?
 
@@ -100,7 +125,8 @@ https://osyihyj.oneskyapp.com/admin/project/dashboard/project/15672
 
 ##Questions or need help?
 
-Chat with us right here
+Chat with The OwnROM team and other users of this project here
+
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/OwnROM/android?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
@@ -111,8 +137,8 @@ Chat with us right here
 
 [jQuery]:http://jquery.com
 [Materializecss]:http://materializecss.com/
-[Sublime Text]:http://www.sublimetext.com/
 [Geany]:http://www.geany.org/
 [FileZilla]:https://filezilla-project.org/
 [Github]:https://github.com/
 [Git]:http://git-scm.com/
+[Brackets]:http://brackets.io/
