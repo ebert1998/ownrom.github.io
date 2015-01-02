@@ -14,11 +14,16 @@ Our website uses a number of projects/software to work:
 
 Also to make this website we used many great programs/software:
 
+Text Editors:
+
 * [Brackets] - A modern, open source text editor that understands web design.
+* [Geany] - Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment
+
+Other software:
+
 * [Github] - Build better software, together
 * [Git] - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
 * [FileZilla] - The free FTP solution
-* [Geany] - Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment
 * And more...
 
 ## Downloading
@@ -109,7 +114,6 @@ Some extensions that you may want to look at if chossing Brackets would be:
 * Beautify - Makes html, javascript or css code more readable
 * Brackets icons - Add icons of diffrent file formats to the sidebar
 * Code overviwer - adds your code in a overview to quickly switch between diffrent parts of your code
-* Documents toolbar - Adds a toolbar to quickly switch between files
 * Simple To-Do - Adds a todo list to the editor to make quick notes or to-dos for your project
 * Monokai - A nice looking theme if your used to sublime text or want something that looks like it
 
