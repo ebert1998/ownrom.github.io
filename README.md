@@ -109,7 +109,7 @@ http://www.geany.org/
 Some extensions that you may want to look at if chossing Brackets would be:
 
 * Brackets git - Github/Git commands in the text editor
-* eqFTP - For uploading your files to a FTP server directly from the editor
+* SFTP Upload - For uploading your files to a FTP server directly from the editor
 * Markdown preview - For previewing markdown documents that your working on in the editor
 * Beautify - Makes html, javascript or css code more readable
 * Brackets icons - Add icons of diffrent file formats to the sidebar
