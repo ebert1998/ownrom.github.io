@@ -1,15 +1,15 @@
-# OwnROM-Website
+# OwnROM-Website:
 
 A website for OwnDroid and our ROM, OwnROM.
 
-
-
-## Tech
+## Tech:
 
 Our website uses a number of projects/software to work:
 
 * [Materializecss] - A modern responsive front-end framework based on Material Design
 * [jQuery] - Write less, do more
+* [Sass] - Syntactically Awesome Style Sheets
+* [html5shiv] - The HTML5 Shiv enables use of HTML5 sectioning elements in legacy Internet Explorer and provides basic HTML5 styling for Internet Explorer 6-9, Safari 4.x (and iPhone 3.x), and Firefox 3.x
 * HTML, CSS and Javascript
 
 Also to make this website we used many great programs/software:
@@ -24,9 +24,10 @@ Other software:
 * [Github] - Build better software, together
 * [Git] - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency
 * [FileZilla] - The free FTP solution
+* [Bower] - A package manager for the web
 * And more...
 
-## Downloading
+## Downloading:
 
 ```sh
 $ mkdir ownrom-website
@@ -38,12 +39,53 @@ Or download the repo as a zip file to the right -->
 
 Then extracting it to a new directory called ownrom-website
 
-## Development
+## Development:
 
 Want to contribute? Great!
 
 You may edit any file in this respitory including the readme or add files if needed if you think this will improve the site or projet
 
+#### Needed programs:
+
+##### Sass:
+
+This website now uses [Sass] to be able to have more control over which components to include from the framework used
+
+To install [Sass] got to there website at http://sass-lang.com/ and follow the instalation instructions for your system
+
+To compile [Sass] you need a compiler such as Brackets SASS if you are using the [Brackets] editor
+
+##### Text editor:
+
+If you need a text editor we would recommend ethier [Brackets] or [Geany]
+
+If you need a more heavyweight text editor with many features, extensions or themes use [Brackets]
+
+http://brackets.io/
+
+If you however want a more lightweight text editor that still has a good amount of feautres try [Geany]
+
+http://www.geany.org/
+
+Some extensions that you may want to look at if chossing [Brackets] would be:
+
+* Brackets git - Github/Git commands in the text editor
+* SFTP Upload - For uploading your files to a FTP server directly from the editor
+* Markdown preview - For previewing markdown documents that your working on in the editor
+* Beautify - Makes html, javascript or css code more readable
+* Brackets icons - Add icons of diffrent file formats to the sidebar
+* Code overviwer - adds your code in a overview to quickly switch between diffrent parts of your code
+* Simple To-Do - Adds a todo list to the editor to make quick notes or to-dos for your project
+* Monokai - A nice looking theme if your used to sublime text or want something that looks like it
+* Brackets SASS - For comilling sass files to css
+
+##### Framework:
+
+Our website uses the [Materializecss] framework. To see what you can add/edit using this see the following link
+
+http://materializecss.com/
+
+This does not have to be installed
 
 ##### Editing multiple files:
 
@@ -84,44 +126,17 @@ $ git push origin master
 
 (If you get a error this usally means there has been changes in the respitory. Just use the pull command as shown above then push your changes)
 
-##### Editing single files
+##### Editing single files:
 
 There is no need to do the steps as explained above but that would work aswell.
 
 To edit just one file click on the file in the respitory that you want to edit, hit the edit button (the pencil), edit the file as you like and subbmit it via a commit.
 
-##### Resources
-
-Our website uses the materializecss framework. To see what you can add/edit using this see the following link
-
-http://materializecss.com/
-
-If you need a text editor we would recommend ethier Brackets or Geany.
-
-If you need a more heavyweight text editor with many features, extensions or themes use Brackets.
-
-http://brackets.io/
-
-If you however want a more lightweight text editor that still has a good amount of feautres try Geany
-
-http://www.geany.org/
-
-Some extensions that you may want to look at if chossing Brackets would be:
-
-* Brackets git - Github/Git commands in the text editor
-* SFTP Upload - For uploading your files to a FTP server directly from the editor
-* Markdown preview - For previewing markdown documents that your working on in the editor
-* Beautify - Makes html, javascript or css code more readable
-* Brackets icons - Add icons of diffrent file formats to the sidebar
-* Code overviwer - adds your code in a overview to quickly switch between diffrent parts of your code
-* Simple To-Do - Adds a todo list to the editor to make quick notes or to-dos for your project
-* Monokai - A nice looking theme if your used to sublime text or want something that looks like it
-
 #####What gets added?
 
 If we think your additions or changes will improve this webiste we will add them right away. If for some reason that we think they dont we will not add them to this project.
 
-##Translating
+##Translating:
 
 If you would like to see this website in your language you can help translate it at this site:
 
@@ -136,9 +151,9 @@ Chat with The OwnROM team and other users of this project here
 
 
 
-
-
-
+[Bower]:http://bower.io/
+[html5shiv]:https://github.com/aFarkas/html5shiv/
+[Sass]:http://sass-lang.com/
 [jQuery]:http://jquery.com
 [Materializecss]:http://materializecss.com/
 [Geany]:http://www.geany.org/
