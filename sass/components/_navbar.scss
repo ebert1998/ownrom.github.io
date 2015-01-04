@@ -7,8 +7,8 @@ nav {
   line-height: 56px;
 
   .nav-wrapper {
-    position: relative;
-    height: 100%;
+    position: fixed;
+    top: 0;
   }
 
   a { color: #fff; }
